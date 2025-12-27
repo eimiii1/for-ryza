@@ -8,7 +8,7 @@ const Navigation = forwardRef(function Navigation(props, ref) {
         <nav
             ref={ref} {...props}
             className="">
-            <h1 className="text-sm font-semibold fixed text-primary/90">FROM PHILIP</h1>
+            <h1 className="text-sm font-bold fixed text-primary/80 z-100">FROM PHILIP</h1>
             <div className="flex justify-center items-center flex-col gap-2 relative top-10">
                 <h1 className="text-4xl font-black text-primary/80">FOR RYZA</h1>
                 <ul className="flex gap-2 text-sm cursor-pointer">

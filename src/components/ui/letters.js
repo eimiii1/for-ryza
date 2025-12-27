@@ -24,8 +24,8 @@ const Letters = forwardRef(function Letters(props, ref) {
                 color: "bg-blue-300"
             },
             {
-                message: "asd",
-                date: "December 31, 2025",
+                message: "I'm sorry for everything that happened. I know I hurt you and I regret it deeply. I really do. Sana patawarin mo na ako at sana kausapin mo na ako. I'm sorry that I'm always trying to joke around even in serious situations. Habit ko na lang yun to lighten up the mood pero naiindintihan ko na hindi pala akma sa lahat ng sitwasyon. Sana mapatawad mo na ako. I'm sorry :(",
+                date: "December 27, 2025",
                 badge: "love",
                 color: "bg-pink-400"
             }
@@ -50,7 +50,7 @@ const Letters = forwardRef(function Letters(props, ref) {
                         </Badge>
                     ))}
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 auto-fit gap-4">
                     {letters.messages.map(({ message, date, badge, color }, i) => (
                         <div
                             className="border p-5 rounded-xl flex flex-col gap-5"
